@@ -1,0 +1,3 @@
+---
+# tasks file for sa-atom
+  - include: tasks_atom.yml
