@@ -26,8 +26,8 @@
       -setup
 
   - name: Atom | Install atom packages
-    shell: apm install {{item}}
-    with_items: "{{atom_packages}}"
+    shell: apm install {{ item }}
+    with_items: "{{ atom_packages }}"
     when: atom_packages is defined
     tags:
       -atom
