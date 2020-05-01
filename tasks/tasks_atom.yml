@@ -11,7 +11,7 @@
 
   - name: Atom | Add atom ppa
     apt_repository: repo=ppa:webupd8team/atom state=present
-    sudo: yes
+    become: yes
     when: atom_check_deb.rc == 1
     tags:
       -atom
@@ -20,7 +20,7 @@
   - name: Atom | Install atom
     apt: update_cache=yes pkg=atom state=installed
     when: atom_check_deb.rc == 1
-    sudo: yes
+    become: yes
     tags:
       -atom
       -setup
