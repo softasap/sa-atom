@@ -1,0 +1,16 @@
+---
+extends: default
+
+ignore: |
+  .venv
+  molecule
+  .travis.yml
+
+rules:
+  line-length:
+    max: 140
+    level: warning
+  truthy: disable
+  indentation: disable
+  comments-indentation: disable
+  comments: disable
