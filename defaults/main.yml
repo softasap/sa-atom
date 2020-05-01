@@ -1,4 +1,23 @@
 ---
 # defaults file for sa-atom
-  atom_packages: ["angularjs","atom-css-comb", "meteor-api", "emmet", "file-icons", "tag", "expand-region", "atom-alignment", "atom-beautify", "minimap", "set-syntax", "jshint", "linter", "linter-jscs", "jscs-fixer", "highlight-line", "highlight-column", "autocomplete-plus", "toggle-quotes", "monokai"]
-
+atom_packages:
+  - "angularjs"
+  - "atom-css-comb"
+  - "meteor-api"
+  - "emmet"
+  - "file-icons"
+  - "tag"
+  - "expand-region"
+  - "atom-alignment"
+  - "atom-beautify"
+  - "minimap"
+  - "set-syntax"
+  - "jshint"
+  - "linter"
+  - "linter-jscs"
+  - "jscs-fixer"
+  - "highlight-line"
+  - "highlight-column"
+  - "autocomplete-plus"
+  - "toggle-quotes"
+  - "monokai"
